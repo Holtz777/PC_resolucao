@@ -1,0 +1,57 @@
+@media screen and (min-width: 768px) {
+    #info {
+        float: left;
+        width: 50%;
+        margin: 0;
+    }
+  
+    #imagem {
+        float: left;
+        width: 40%;
+        margin-right: -10%;
+        margin-left: 5%;
+    }
+  
+    #imagem img {
+        width: 100%;
+    }
+  
+    #info {
+        float: left;
+        width: 50%;
+    }
+  
+    #nome_do_produto {
+        margin-top: 0;
+    }
+  
+    #text {
+        clear: both;
+        width: 70%; 
+        margin-bottom: 5%;
+        margin-top: 5%;
+        margin: 30px auto 0;
+    }
+  
+    #botao {
+        clear: both;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+  
+    #comprar {
+        width: 42.86%; 
+        height: 17.24%;
+        padding: 4.31% 8.62%; 
+        margin: 0;
+    }
+  
+    #comprar:hover {
+        margin-left: 100%; 
+    }
+  
+    #nome_do_produto, #text, #botao #comprar {
+        float: right;
+        width: 70%;
+    }
+  }
